@@ -8,7 +8,8 @@ location @error {
    # включаем обработку команд SSI
    ssi on;
    # возвращаем шаблон страницы об ошибке
-   return 200 "<!DOCTYPE html><html><head><title>$status $status_text</title></head><body><center><h1>$status $status_text</h1></center><hr></body></html>";
+   return 200 "<!DOCTYPE html><html><head><title>$status $status_text</title></head> \
+               <body><center><h1>$status $status_text</h1></center><hr></body></html>";
 }
 ```
 
