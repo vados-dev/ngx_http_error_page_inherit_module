@@ -1,5 +1,4 @@
-# Статья с хабра: 
-(https://habr.com/ru/articles/652479/)
+# [Статья с хабра](https://habr.com/ru/articles/652479/)
 
 ```
 location @error {
